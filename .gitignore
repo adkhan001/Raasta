@@ -1,0 +1,15 @@
+# Keep datasets, weights, credentials and generated outputs out of Git.
+.ipynb_checkpoints/
+__pycache__/
+.env
+.env.*
+!.env.example
+*.pt
+*.pth
+*.tif
+*.tiff
+*.npz
+*.zip
+dataset/
+runs/
+ui_predictions/
